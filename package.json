@@ -19,6 +19,7 @@
   "dependencies": {
     "node-abi": "^2.1.2",
     "node-pty-linux": "0.0.1",
+    "node-pty-mac": "0.0.1",
     "node-pty-win": "0.0.1"
   }
 }

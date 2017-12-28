@@ -12,6 +12,10 @@ switch (process.platform) {
     pty = require('node-pty-linux');
     break;
   }
+  case 'darwin': {
+    pty = require('node-pty-mac');
+    break;
+  }
   case 'win32': {
     pty = require('node-pty-win');
     break;
