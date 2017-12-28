@@ -1,0 +1,23 @@
+{
+  "name": "pty-multi",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modulesio/node-pty-multi.git"
+  },
+  "author": "Avaer Kazmer <a@modules.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modulesio/node-pty-multi/issues"
+  },
+  "homepage": "https://github.com/modulesio/node-pty-multi#readme",
+  "dependencies": {
+    "node-pty": "^0.7.4",
+    "node-pty-win": "0.0.1"
+  }
+}
